@@ -20,7 +20,7 @@ Sentry.init({
     replaysOnErrorSampleRate: 1.0,
 });
 
-
+// 大傻傻的
 new Vue({
     render: h => h(App),
 }).$mount('#app')
