@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Router from "vue-router";
+// import Router from "vue-router"
 import * as Sentry from "@sentry/vue";
-Vue.use(Router);
+// Vue.use(Router);
 
 Vue.config.productionTip = false
 
