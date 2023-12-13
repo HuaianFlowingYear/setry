@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 const { sentryWebpackPlugin } = require("@sentry/webpack-plugin");
 module.exports = defineConfig({
-    transpileDependencies: true,
+    // transpileDependencies: true,
     configureWebpack: {
         devtool: 'source-map',
         plugins: [
